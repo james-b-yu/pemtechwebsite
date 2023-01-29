@@ -1,0 +1,46 @@
+@import "../../../../styles";
+
+.top-header {
+  width: 100%;
+  min-height: 100vh;
+  backdrop-filter: blur(10px);
+
+  position: relative;
+}
+
+.committee-card {
+  background-color: unset !important;
+}
+
+.home-body {
+  width: 100%;
+}
+
+.top-header {
+
+  .background,
+  .foreground {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    min-height: inherit;
+  }
+
+  .background {
+    background-image: url("../../../../assets/pemtech-home.jpg");
+
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    filter: brightness(0.75) hue-rotate(30deg);
+  }
+
+  .foreground {
+    text-align: center;
+  }
+}

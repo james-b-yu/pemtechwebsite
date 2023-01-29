@@ -1,1 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+$font-family-sans-serif: "IBM Plex Sans",
+-apple-system,
+system-ui,
+BlinkMacSystemFont,
+"Segoe UI",
+Roboto,
+"Helvetica Neue",
+Arial,
+sans-serif;
+
+$font-family-base: $font-family-sans-serif;
+$body-bg: #080816;
+$body-color: #F8F9FA;
+$enable-rounded: false;
+
+$aos-distance: 40px;
+
 /* You can add global styles to this file, and also import other style files */
+/* Importing Bootstrap SCSS file. */
+@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap-icons/font/bootstrap-icons";
+@import "~aos/src/sass/aos.scss"
